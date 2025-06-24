@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# mypy / Pyright / other tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+*.iml
+
+# Pipenv
+Pipfile.lock
+
+# SQLite or other dev databases
+*.sqlite3
+*.db
